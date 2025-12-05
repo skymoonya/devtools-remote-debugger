@@ -14,7 +14,7 @@ export default class ScreenPreview extends BaseDomain {
       return renderScreen();
     }
 
-    return loadScript('https://unpkg.com/@zumer/snapdom@1.8.0/dist/snapdom.min.js').then(renderScreen);
+    return loadScript('https://unpkg.com/@zumer/snapdom@1.9.13/dist/snapdom.min.js').then(renderScreen);
   }
 
   /**
